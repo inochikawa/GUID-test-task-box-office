@@ -1,0 +1,1 @@
+export { LinkRoutes } from "./LinkRoutes";

@@ -1,0 +1,13 @@
+.action-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.app-link-header {
+    color: rgb(204, 204, 204);
+
+    &:hover {
+        color: rgb(150, 150, 150);;
+    }
+}

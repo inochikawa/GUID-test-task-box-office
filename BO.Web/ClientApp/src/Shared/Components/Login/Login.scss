@@ -1,0 +1,17 @@
+.login-form {
+    margin: auto;
+    margin-top: 24px;
+
+    width: 400px;
+
+    .form-actions {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;;
+
+        button {
+            margin-left: 8px;
+        }
+    }
+}

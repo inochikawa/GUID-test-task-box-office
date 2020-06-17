@@ -1,0 +1,37 @@
+.filters-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    .filter-item {
+        width: 300px;
+        margin: 4px;
+
+        &>.input-group-prepend {
+            width: 20%;
+            span {
+                width: 100%;
+            }
+        }
+
+        input {
+            height: auto;
+        }
+
+        &>.rdt {
+            width: 80%;
+            &>.form-control {
+                font-size: 0.875rem;
+            }
+        }
+    }
+
+    .filter-actions {
+        margin: 4px;
+        width: auto;
+
+        button {
+            margin-left: 4px;
+        }
+    }
+}
