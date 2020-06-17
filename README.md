@@ -1,4 +1,9 @@
 # GUID-test-task-box-office
+
+Video demo
+https://drive.google.com/file/d/1t2YTYFv6_duo293fp-4huLrZAu6Q6nko/view?usp=sharing
+
+---
 Setup:
 - Go to `appsettings.json` in `BO.Web` project and set your DB connection string.
 - Go to `BO.Web` project in terminal and run `dotnet run`. Project will be hosted on http://localhost:5000
@@ -29,7 +34,3 @@ What needs to be improved:
 - Store user's token in the cookies. So a user don't need to login every time after page reloading.
 - Implement services/managers to manage shows, tickets. Because currently all is done directly in controllers.
 - Add proper notifications on UI. So a user knows what is going on after api request. I mean display any validation errors, display errors from server.
-
----
-Video demo
-https://drive.google.com/file/d/1t2YTYFv6_duo293fp-4huLrZAu6Q6nko/view?usp=sharing
